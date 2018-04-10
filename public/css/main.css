@@ -1,0 +1,57 @@
+body{
+  width: 100vw;
+  overflow: hidden;
+  font-family: 'Vollkorn', serif;
+}
+
+header {
+  display: flex;
+  height: 5vh;
+  background: white;
+  color: black;
+  font-size: 1.3rem;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+#home {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-bars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#home div{
+  margin: 0.5rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  height: 95vh;
+  width: 100vw;
+  background: blue;
+  background: linear-gradient(to right bottom, #56CCF2, #2D9CDB, #2F80ED, #9B51E0);
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+#image-container {
+  margin-top: 5rem;
+  background-image: url("../image/hotels.jpg");
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  transform: skewY(-4deg);
+}
+
+#image-container img {
+  width: 100%;
+  height: 100%;
+  
+}
